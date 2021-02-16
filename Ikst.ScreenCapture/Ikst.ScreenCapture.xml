@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ikst.ScreenCapture</name>
+    </assembly>
+    <members>
+        <member name="T:Ikst.ScreenCapture.ScreenCapture">
+            <summary>
+            スクリーンキャプチャー
+            </summary>
+        </member>
+        <member name="F:Ikst.ScreenCapture.ScreenCapture.CURSOR_SHOWING">
+            <summary></summary>
+        </member>
+        <member name="F:Ikst.ScreenCapture.ScreenCapture.DI_NORMAL">
+            <summary></summary>
+        </member>
+        <member name="M:Ikst.ScreenCapture.ScreenCapture.Capture(System.Drawing.Rectangle,System.Boolean)">
+            <summary>
+            スクリーンショットを取得します。
+            </summary>
+            <param name="rect">キャプチャ位置／サイズを格納したRectangle</param>
+            <param name="includeMouse">スクリーンショットにマウスカーソルの画像を含めるかどうか</param>
+            <returns>スクリーンショットのBitmap</returns>
+        </member>
+        <member name="M:Ikst.ScreenCapture.ScreenCapture.Capture(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            スクリーンキャプチャを取得します。
+            </summary>
+            <param name="x">開始位置X</param>
+            <param name="y">開始位置Y</param>
+            <param name="width">横幅</param>
+            <param name="height">縦幅</param>
+            <param name="includeMouse">スクリーンショットにマウスカーソルの画像を含めるかどうか</param>
+            <returns>スクリーンキャプチャのBitmap</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+    <Version>0.0.1</Version>
+    <Authors>ikst</Authors>
+    <Company>ikst</Company>
+    <Copyright>MIT</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ScreenCapture ScreenShot HardCopy</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\oihso\source\repos\Ikst.ScreenCapture\Ikst.ScreenCapture\Ikst.ScreenCapture.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="system.drawing.common" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
