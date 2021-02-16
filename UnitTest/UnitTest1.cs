@@ -42,8 +42,8 @@ namespace UnitTest
         public void Test3()
         {
             // –ÚŽ‹Šm”F—p
-            var r1 = ScreenCapture.Capture(0, 0, 500, 500);
-            r1.Save("UnitTestResult.bmp");
+            Bitmap bmp = ScreenCapture.Capture(0, 0, 1920, 1080, true);
+            bmp.Save("UnitTestResult.bmp");
         }
     }
 }

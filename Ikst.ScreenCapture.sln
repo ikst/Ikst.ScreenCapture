@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ikst.ScreenCapture", "Ikst.ScreenCapture\Ikst.ScreenCapture.csproj", "{4E539F6D-7C72-48D3-B7AA-EFCB3141F5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ikst.ScreenCapture", "Ikst.ScreenCapture\Ikst.ScreenCapture.csproj", "{4E539F6D-7C72-48D3-B7AA-EFCB3141F5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A79E48A7-63AD-40D4-AD43-391A9EA7274B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A79E48A7-63AD-40D4-AD43-391A9EA7274B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91ED0071-A2B7-4138-BF90-14DCD486E789}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
